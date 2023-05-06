@@ -1,0 +1,29 @@
+{
+  "name": "proton-ts-sc-docs",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Proton's Smart Contract docs.",
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@proton/vuepress-plugin-graphviz": "^2.2.1",
+    "@vuepress/plugin-html-redirect": "^0.1.4",
+    "he": "^1.2.0",
+    "husky": "^8.0.1",
+    "pngquant": "^4.0.0",
+    "prism-themes": "^1.9.0",
+    "sharp": "^0.30.3",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-check-md": "^0.0.2",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "worker-loader": "^3.0.8"
+  },
+  "dependencies": {
+    "assemblyscript": "^0.18.32",
+    "vuedraggable": "^2.24.3"
+  }
+}
